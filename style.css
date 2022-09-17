@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 663px;
+    background: rgb(248, 248, 224);
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9fafa;
+    box-shadow: 13px 13px 20px #cbced1;
+}
+#screen {
+    width: 420px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-align: right;
+    background: #ecf0f3;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px lightgray;
+}
+.buttons button {
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    background-color:rgb(231, 229, 229);
+    box-shadow: 5px 5px 8px #00000020,
+               -5px -5px 8px #ffff;
+}
+.buttons button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 8px rgb(210, 207, 207);
+}
+#ce{
+    background: #ff3399;
+    color: #fff;
+}
+#ce:hover 
+{
+    box-shadow: inset 5px 5px 8px #e60073,
+                  inset -5px -5px 8px #ff3399;
+}
+#ac 
+{
+    background: #33cc33;
+    color: #fff;
+}
+
+#ac:hover 
+{   
+    box-shadow: inset 5px 5px 8px #229b22,
+                inset -5px -5px 8px #33cc33;
+}
+#eval 
+{
+    background: #33ccff;
+    color: #fff;
+}
+
+#eval:hover 
+{
+    box-shadow: inset 5px 5px 8px #00ace6,
+                inset -5px -5px 8px #60cef3;
+}
