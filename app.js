@@ -29,7 +29,7 @@ for( item of buttons ) {
         if( input.value != "" ) {
 
             if( text == "(" && !isNaN(input.value.charAt(length-1))) input.value += "*";
-            if( text != "" && !isNaN(text) && input.value.charAt(length-1) == ')') input.value += "*";
+            if( text != "" && (!isNaN(text) || text == '(') && input.value.charAt(length-1) == ')') input.value += "*";
         }
 
         input.value += text;
